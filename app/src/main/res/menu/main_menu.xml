@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="About"
+        android:onClick="aboutClickHandler"
+        />
+    <item android:title="Help"
+        android:onClick="helpClickHandler"
+        />
+    <item android:title="Contact"
+        android:id="@+id/menu_item_contact"
+        android:onClick="contactClickHandler"
+        />
+</menu>
